@@ -6,8 +6,8 @@ To run this project, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/your-username/quiz-app.git
-
+git clone [https://github.com/your-username/quiz-app.git
+](https://github.com/jayavarsa/FRONT-END-CA-4)
 Navigate to the project directory:
 cd quiz-app
 
