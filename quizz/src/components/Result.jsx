@@ -7,7 +7,7 @@ function Result(props) {
     const startQuiz = () => {
         navigate("/");
       };
-  const { score, totalScore } = props;
+  const { score, totalScore , tryAgain } = props;
   const percentage = (score / totalScore) * 100;
   return (
     <>
@@ -21,7 +21,7 @@ function Result(props) {
           <p>{percentage}%</p>
         </div>
         <div className='result_reload'>
-          <button  onClick={() => window.location.reload()} >Play Again</button>
+          <button  onClick={props.tryAgain} >Play Again</button>
         </div>
       </div>
     </>

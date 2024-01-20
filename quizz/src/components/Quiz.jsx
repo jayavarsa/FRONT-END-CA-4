@@ -67,7 +67,7 @@ function Quiz() {
     setCurrentQuestion(0);
     setScore(0);
     setHighlightQuestion(false);
-    setTheme(false);
+    setTheme(true);
   };
   useEffect( () =>{
     document.body.className = theme ? 'light' : 'dark'
